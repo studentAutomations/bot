@@ -10,7 +10,7 @@ embed = Embed(
     timestamp='now'
 )
 
-embed.add_field(name='', value='@everyone')
+embed.add_field(name='Notify: @everyone', value='')
 embed.add_field(name='Botovi za Sip i CS', value='[installed]')
 embed.set_footer(text='by og._.njen')
 
