@@ -5,7 +5,7 @@ from dhooks import Webhook, Embed
 WEBHOOK_URL = os.getenv('WEBHOOK_URL')
 hook = Webhook(WEBHOOK_URL) 
 
-
+hook.send('@everyone This is a notification for all members!')
 
 embed = Embed(
     color= 0x499957,
@@ -13,7 +13,7 @@ embed = Embed(
 )
 
 
-hook.send('@everyone This is a notification for all members!')
+
 
 embed.add_field(name='SIP bot', value='[installed]')
 embed.set_footer(text='by og._.njen')
