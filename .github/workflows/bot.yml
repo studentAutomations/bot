@@ -1,4 +1,4 @@
-name: cs lp scraper
+name: bot
 
 on: [workflow_dispatch]
 
