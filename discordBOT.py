@@ -10,8 +10,9 @@ embed = Embed(
     timestamp='now'
 )
 
+
+embed.add_field(name='CS lp bot', value='[installed]')
 embed.add_field(name='Notify', value='@everyone')
-embed.add_field(name='CS baze bot', value='[installed]')
 embed.set_footer(text='by og._.njen')
 
 
