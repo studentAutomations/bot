@@ -11,7 +11,7 @@ embed = Embed(
     timestamp='now'
 )
 
-hook.send('@everyone This is a notification for all members!')
+hook.send('@everyone')
 
 
 embed.add_field(name='SIP bot', value='[installed]')
