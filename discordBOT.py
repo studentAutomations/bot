@@ -11,7 +11,7 @@ embed = Embed(
 )
 
 
-embed.add_field(name='@everyone Botovi za Sip i CS', value='[installed]')
+embed.add_field(name='Botovi za Sip i CS', value='[installed]')
 embed.set_footer(text='by og._.njen')
 
 
