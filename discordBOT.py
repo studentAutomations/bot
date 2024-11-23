@@ -10,7 +10,7 @@ embed = Embed(
     timestamp='now'
 )
 
-embed.set_author(name='Custom Bot')
+
 embed.add_field(name='Botovi za Sip i CS', value='[installed]')
 embed.set_footer(text='by og._.njen')
 
