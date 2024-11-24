@@ -14,7 +14,7 @@ embed = Embed(
 hook.send('@everyone')
 
 
-embed.add_field(name='SIP bot', value='[installed]')
+embed.add_field(name='CS bot', value='[installed]')
 embed.set_footer(text='by og._.njen')
 
 
