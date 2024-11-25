@@ -23,5 +23,5 @@ jobs:
       
       - name: Run main script
         env:
-          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          WEBHOOK_OTHER1: ${{ secrets.WEBHOOK_OTHER1 }}
         run: python discordBOT.py
