@@ -2,7 +2,7 @@ import os
 from dhooks import Webhook, Embed
 
 # Get the webhook URL from environment variable
-WEBHOOK_URL = os.getenv('WEBHOOK_URL')
+WEBHOOK_URL = os.getenv('WEBHOOK_OTHER1')
 hook = Webhook(WEBHOOK_URL) 
 
 
@@ -14,7 +14,7 @@ embed = Embed(
 hook.send('@everyone')
 
 
-embed.add_field(name='CS bot', value='[installed]')
+embed.add_field(name='BOT', value='[Updated]')
 embed.set_footer(text='by og._.njen')
 
 
